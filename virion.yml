@@ -1,0 +1,6 @@
+name: GameLibrary
+version: 1.0.0
+antigen: spice\gamelib
+api: [3.0.0]
+php: [7.4]
+author: Spice
