@@ -1,10 +1,10 @@
 <?php
 
-
 namespace spice\gamelib;
 
+use pocketmine\plugin\PluginBase;
 
-class Minigame
+abstract class Minigame extends PluginBase
 {
-
+    abstract public static function getInstance(): Minigame;
 }
